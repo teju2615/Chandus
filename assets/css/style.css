@@ -1,0 +1,52 @@
+.container {
+    text-align: center;
+    margin-top: 20px;
+    background-image: url('../images/plane\ img.jfif');
+    background-size: 100%;
+  }
+  
+  h1 {
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .photo-gallery img {
+    width: 235px;
+    height: 300px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  #image-content {
+    margin-top: 20px;
+    font-size: 25px;
+    color: pink;
+    animation: colorChange 2s infinite, fadeInText 1s ease-in-out;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 25px;
+    color:black;
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  button {
+    width: 15%;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    background-color: black;
+    background-size: 300px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+  }

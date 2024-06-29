@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-image: url('../images-2/plane\ img.jfif');
+  background-size: 50%;
+}
+
+header {
+  color: aliceblue;
+  text-align: center;
+  padding: 1em 0;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  color: darkslateblue;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.image-container img {
+  max-width: 20%;
+  border: 2px solid black;
+  transition: transform 0.5s;
+}
+
+.image-container img:hover {
+  transform: scale(1.1);
+}
+
+.message-container {
+  border-radius: 10px;
+}
+
+.message-container p {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+
+.btn {
+  color: black;
+  font-family: monospace;
+  width: 25%;
+  height: 50px;
+  font-size: 35px;
+  border-radius: 15px;
+  box-shadow: pink;
+  margin-top: 3%;
+  background-color: black;
+  color: whitesmoke;
+}
+
+p {
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love On Chandu</title>
+  <link rel="stylesheet" href="../chandu/assets/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <center>
+      <h1>Chandu!</h1>
+      <div class="photo-gallery">
+        <img src="../chandu/assets/Images/chandu img-1.png" alt="Image 1" data-content="You're still my person ...even if I'm not yours. Enni rojulu naa pichi prema tho ninu disturb chesi unte sorry">
+        <img src="../chandu/assets/Images/chandu img-2.png" alt="Image 2" data-content="I know Our Journey is hard but I PROMISE ..I will stay with you in every SITUATION.. if you are really with ME">
+        <img src="../chandu/assets/Images/B2FA17A1-E482-45C0-A255-B5192F01630D (2).jpg" alt="Image 3" data-content="I don't see a boyfriend, I see husband, a father, my well-wisher, and the most perfect boy in the universe >> Chandu">
+      </div>
+      <div id="image-content"></div>
+      <div>
+        <p>Chandu...<br>
+          You are my everything in my Little World.<br>
+          I miss you more than you know!! <br>
+          Stay with me nothing feels better then Without You...<br>
+          Next life untundho ledho naku teluvadhu kanni<br>
+          e life lo mathram naaku anni nuvve...<br>
+          Naku unna okey okka dream chivari vaaraku <br>
+          nenu neethone undali ninu<br>
+          Happy ga Chuskovali...anthey...<br>
+          I Love You </p>
+      </div>
+      <div>
+        <a href="../chandu/assets/Folder2/web/index.html">
+          <button>To My Man >></button>
+        </a>
+      </div>
+    </center>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const images = document.querySelectorAll('.photo-gallery img');
+      const imageContent = document.getElementById('image-content');
+
+      images.forEach(image => {
+        image.addEventListener('click', function() {
+          const content = this.getAttribute('data-content');
+          imageContent.textContent = content;
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
